@@ -4,6 +4,8 @@
         <title>
             A new course
         </title>
+
+        <link rel="stylesheet" href="newCourseStyle.css">
     </head>
 
     <body>
@@ -40,11 +42,6 @@
 
         <h2><br>Course schedule</h2>
         <table>
-            <style>
-                td{
-                border: 1px solid pink
-                }
-            </style>
             <tr>
                 <th>Days</th>
                 <th>Location</th>
@@ -77,43 +74,8 @@
 
         <br><br><br>
 
-    <h2>Register</h2>
+    <h2 id = "Reg"><a href="courseReg.html"> Register to this course now!! </a> </h2>
         <br>
-    <form>
-        <label for = "fname">Full name:</label>
-        <input type="text" id = "fname">
-        <br><br>
-
-        <p>Sex:</p>
-        <input type="radio" id = "male" name = "sex">
-        <label for = "male">Male</label>
-        <input type="radio" id = "female" name = "sex">
-        <label for = "female">Female</label>
-        <br><br>
-
-        <p>Where did you find out about us?</p>
-        <input type="checkbox" id="OWS" name = "OWS">
-        <label for="OWS"> The official website</label> <br>
-        <input type="checkbox" id="soc" name = "soc">
-        <label for="soc"> Social media </label> <br>
-        <input type="checkbox" id="frnd" name = "frnd">
-        <label for="frnd"> A friend/family member</label> <br>
-        <br><br>
-
-        <label for = "country">Where are you from?</label>
-        <select id = "country" name = "country">
-            <option value = "SA"> Saudi Arabia </option>
-            <option value = "BH"> Bahrain </option>
-            <option value = "UAE"> United Arabs Emirates </option>
-            <option value="QT"> Qatar </option>
-            <option value = "OM"> Oman </option>
-            <option value = "KW"> Kuwait </option>
-            <option value="ot"> Other </option>
-        </select>
-        <br><br>
-
-        <input type="submit" value="Submit">
-    </form>
 
     </body>
 </html>

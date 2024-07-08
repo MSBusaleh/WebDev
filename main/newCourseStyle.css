@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+}
+
+body{
+    background-color: wheat
+}
+
+table{
+    align-self: center;
+    align-items: center;
+}
+
+td {
+    border: 1px solid darkred;
+}
+
